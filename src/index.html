@@ -4,8 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aniversário de 30 anos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.scss">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-  
+  <header class="hero">
+    <div class="container">
+      <img class="hero__logo" src="./images/birthday-cake-svgrepo-com.svg" alt="Birthday Cake">
+      <p class="hero__text">
+        Aniversário de 30 anos de Guilherme em <span id="contador"></span>
+      </p>
+      <div class="infos-bar">
+        <ul class="infos-bar__infos">
+          <li class="infos-bar__infos__item">
+            <b>Aniversariante</b>
+            Guilherme 
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Quantos anos fará?</b>
+            30 anos
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Quando</b>
+            13/11/2025 às 00h00
+          </li>
+        </ul>
+        <a class="button button--primary" href="">Dê parabéns!</a>
+      </div>
+    </div>
+  </header> 
+  <section class="event event--event1">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Alguma coisa</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto amet, cumque, eaque, accusantium totam dolorum
+          placeat blanditiis impedit incidunt ratione quod corrupti excepturi? Explicabo nihil quo odio id. Vitae,
+          voluptas?
+        </p>
+      </div>
+      <img class="event__image" src="https://via.placeholder.com/350x350" alt="">
+    </div>
+  </section>
+  <section class="event event--event2 event--image-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Alguma coisa</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto amet, cumque, eaque, accusantium totam dolorum
+          placeat blanditiis impedit incidunt ratione quod corrupti excepturi? Explicabo nihil quo odio id. Vitae,
+          voluptas?
+        </p>
+      </div>
+      <img class="event__image" src="https://via.placeholder.com/350x350" alt="">
+    </div>
+  </section>
+  <section class="event event--event3">
+    <div class="container" data-aos="fade-right">
+      <div class="event__details">
+        <h2 class="event__details__title">Alguma coisa</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto amet, cumque, eaque, accusantium totam dolorum
+          placeat blanditiis impedit incidunt ratione quod corrupti excepturi? Explicabo nihil quo odio id. Vitae,
+          voluptas?
+        </p>
+      </div>
+      <img class="event__image" src="https://via.placeholder.com/350x350" alt="">
+    </div>
+  </section>
+  <section class="event event--event4 event--image-left">
+    <div class="container" data-aos="fade-left">
+      <div class="event__details">
+        <h2 class="event__details__title">Alguma coisa</h2>
+        <p class="event__details__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto amet, cumque, eaque, accusantium totam dolorum
+          placeat blanditiis impedit incidunt ratione quod corrupti excepturi? Explicabo nihil quo odio id. Vitae,
+          voluptas?
+        </p>
+      </div>
+      <img class="event__image" src="https://via.placeholder.com/350x350" alt="">
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./scripts/main.js"></script>
 </body>
 </html>
