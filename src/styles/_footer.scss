@@ -1,0 +1,8 @@
+@use 'variables'; 
+
+.footer {
+  padding: 26px 8px;
+  text-align: center;
+  color: variables.$secondaryTextColor;
+  background-color: variables.$coffee4;
+}

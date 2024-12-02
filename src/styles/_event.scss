@@ -14,11 +14,7 @@
   &--event3 {
     background-image: linear-gradient(variables.$coffee3, variables.$coffee4);
   }
-
-  &--event4 {
-    background-image: linear-gradient(variables.$coffee4, variables.$coffee1);
-  }
-
+  
   &--image-left {
 
     .container {
@@ -43,6 +39,7 @@
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 16px;
+      color: variables.$secondaryTextColor;
     }
 
     &__description {
@@ -51,6 +48,8 @@
   }
 
   @media (max-width: 640px) {
+
+    padding: 16px 0;
     
     .container {
       display: block;

@@ -1,17 +1,22 @@
+@use 'variables';
+
 .infos-bar {
   padding: 16px 24px;
   display: flex;
   justify-content: space-between;
+  background-color: variables.$coffee3;
 
   &__infos {
     display: flex;
     gap: 40px;
 
     &__item {
+      color: variables.$secondaryTextColor;
       font-size: 14px;
       list-style: none;
 
       b {
+        color: variables.$secondaryTextColor;
         font-size: 18px;
         display: block;
       }
